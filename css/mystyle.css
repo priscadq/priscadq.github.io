@@ -1,0 +1,39 @@
+img {
+    height: 100px;
+}
+
+.carrito_centro {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.carrito_boton{
+    top: 85vh;
+}
+
+
+/** .item{
+    height:354px;
+    width:100;
+}**/
+
+.bloque_outside{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    background-color:rgba(255,255,255,.63);
+    height: 500px;   width: 40%;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.bloque_inside{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+
+.texto_bloque{
+    margin: 20px;
+    color: black;
+}
